@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>_XCCurrentVersionName</key>
-	<string>reconlabsSample.xcdatamodel</string>
+	<string>CoreDataModel.xcdatamodel</string>
 </dict>
 </plist>

@@ -11,8 +11,18 @@
 		576619102A1B47BE00D09EF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766190F2A1B47BE00D09EF4 /* ContentView.swift */; };
 		576619122A1B47C000D09EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576619112A1B47C000D09EF4 /* Assets.xcassets */; };
 		576619152A1B47C000D09EF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576619142A1B47C000D09EF4 /* Preview Assets.xcassets */; };
-		576619172A1B47C000D09EF4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576619162A1B47C000D09EF4 /* Persistence.swift */; };
-		5766191A2A1B47C000D09EF4 /* reconlabsSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 576619182A1B47C000D09EF4 /* reconlabsSample.xcdatamodeld */; };
+		576619222A1DDBBC00D09EF4 /* Extension+UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576619212A1DDBBC00D09EF4 /* Extension+UIScreen.swift */; };
+		576619322A206CD000D09EF4 /* Extension+EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576619312A206CD000D09EF4 /* Extension+EnvironmentValues.swift */; };
+		576619342A20725400D09EF4 /* MyARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576619332A20725400D09EF4 /* MyARView.swift */; };
+		576619362A20802C00D09EF4 /* ARBoxAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576619352A20802C00D09EF4 /* ARBoxAnchor.swift */; };
+		5766193D2A21C43D00D09EF4 /* ARVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766193B2A21C43D00D09EF4 /* ARVC.swift */; };
+		5766193E2A21C43D00D09EF4 /* ARVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5766193C2A21C43D00D09EF4 /* ARVC.xib */; };
+		576619402A21C66C00D09EF4 /* RealityKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766193F2A21C66C00D09EF4 /* RealityKitVC.swift */; };
+		576619692A244CF000D09EF4 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 576619662A244CF000D09EF4 /* CoreDataModel.xcdatamodeld */; };
+		5766196B2A244D2F00D09EF4 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766196A2A244D2F00D09EF4 /* PersistenceController.swift */; };
+		5766196D2A24511F00D09EF4 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766196C2A24511F00D09EF4 /* ImageData.swift */; };
+		5766196F2A24530500D09EF4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766196E2A24530500D09EF4 /* CoreDataManager.swift */; };
+		576619712A24555A00D09EF4 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576619702A24555A00D09EF4 /* ImageDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +31,19 @@
 		5766190F2A1B47BE00D09EF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		576619112A1B47C000D09EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576619142A1B47C000D09EF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		576619162A1B47C000D09EF4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		576619192A1B47C000D09EF4 /* reconlabsSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = reconlabsSample.xcdatamodel; sourceTree = "<group>"; };
+		576619212A1DDBBC00D09EF4 /* Extension+UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIScreen.swift"; sourceTree = "<group>"; };
+		576619312A206CD000D09EF4 /* Extension+EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+EnvironmentValues.swift"; sourceTree = "<group>"; };
+		576619332A20725400D09EF4 /* MyARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARView.swift; sourceTree = "<group>"; };
+		576619352A20802C00D09EF4 /* ARBoxAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBoxAnchor.swift; sourceTree = "<group>"; };
+		5766193B2A21C43D00D09EF4 /* ARVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVC.swift; sourceTree = "<group>"; };
+		5766193C2A21C43D00D09EF4 /* ARVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARVC.xib; sourceTree = "<group>"; };
+		5766193F2A21C66C00D09EF4 /* RealityKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitVC.swift; sourceTree = "<group>"; };
+		576619672A244CF000D09EF4 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		576619682A244CF000D09EF4 /* reconlabsSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = reconlabsSample.xcdatamodel; sourceTree = "<group>"; };
+		5766196A2A244D2F00D09EF4 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		5766196C2A24511F00D09EF4 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		5766196E2A24530500D09EF4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		576619702A24555A00D09EF4 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +76,14 @@
 		5766190C2A1B47BE00D09EF4 /* reconlabsSample */ = {
 			isa = PBXGroup;
 			children = (
+				576619542A22172800D09EF4 /* CoreData */,
+				576619232A1DDFE800D09EF4 /* View */,
+				576619202A1DDB9100D09EF4 /* Extension */,
 				5766190D2A1B47BE00D09EF4 /* reconlabsSampleApp.swift */,
-				5766190F2A1B47BE00D09EF4 /* ContentView.swift */,
 				576619112A1B47C000D09EF4 /* Assets.xcassets */,
-				576619162A1B47C000D09EF4 /* Persistence.swift */,
-				576619182A1B47C000D09EF4 /* reconlabsSample.xcdatamodeld */,
 				576619132A1B47C000D09EF4 /* Preview Content */,
+				5766193F2A21C66C00D09EF4 /* RealityKitVC.swift */,
+				576619662A244CF000D09EF4 /* CoreDataModel.xcdatamodeld */,
 			);
 			path = reconlabsSample;
 			sourceTree = "<group>";
@@ -71,6 +94,38 @@
 				576619142A1B47C000D09EF4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		576619202A1DDB9100D09EF4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				576619212A1DDBBC00D09EF4 /* Extension+UIScreen.swift */,
+				576619312A206CD000D09EF4 /* Extension+EnvironmentValues.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		576619232A1DDFE800D09EF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5766190F2A1B47BE00D09EF4 /* ContentView.swift */,
+				576619332A20725400D09EF4 /* MyARView.swift */,
+				576619352A20802C00D09EF4 /* ARBoxAnchor.swift */,
+				5766193B2A21C43D00D09EF4 /* ARVC.swift */,
+				5766193C2A21C43D00D09EF4 /* ARVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		576619542A22172800D09EF4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5766196A2A244D2F00D09EF4 /* PersistenceController.swift */,
+				5766196C2A24511F00D09EF4 /* ImageData.swift */,
+				5766196E2A24530500D09EF4 /* CoreDataManager.swift */,
+				576619702A24555A00D09EF4 /* ImageDataModel.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +144,8 @@
 			dependencies = (
 			);
 			name = reconlabsSample;
+			packageProductDependencies = (
+			);
 			productName = reconlabsSample;
 			productReference = 5766190A2A1B47BE00D09EF4 /* reconlabsSample.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +174,8 @@
 				Base,
 			);
 			mainGroup = 576619012A1B47BE00D09EF4;
+			packageReferences = (
+			);
 			productRefGroup = 5766190B2A1B47BE00D09EF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				576619152A1B47C000D09EF4 /* Preview Assets.xcassets in Resources */,
+				5766193E2A21C43D00D09EF4 /* ARVC.xib in Resources */,
 				576619122A1B47C000D09EF4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,10 +203,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				576619172A1B47C000D09EF4 /* Persistence.swift in Sources */,
+				576619322A206CD000D09EF4 /* Extension+EnvironmentValues.swift in Sources */,
+				576619222A1DDBBC00D09EF4 /* Extension+UIScreen.swift in Sources */,
 				576619102A1B47BE00D09EF4 /* ContentView.swift in Sources */,
 				5766190E2A1B47BE00D09EF4 /* reconlabsSampleApp.swift in Sources */,
-				5766191A2A1B47C000D09EF4 /* reconlabsSample.xcdatamodeld in Sources */,
+				5766193D2A21C43D00D09EF4 /* ARVC.swift in Sources */,
+				576619692A244CF000D09EF4 /* CoreDataModel.xcdatamodeld in Sources */,
+				5766196F2A24530500D09EF4 /* CoreDataManager.swift in Sources */,
+				5766196D2A24511F00D09EF4 /* ImageData.swift in Sources */,
+				576619342A20725400D09EF4 /* MyARView.swift in Sources */,
+				576619712A24555A00D09EF4 /* ImageDataModel.swift in Sources */,
+				576619402A21C66C00D09EF4 /* RealityKitVC.swift in Sources */,
+				576619362A20802C00D09EF4 /* ARBoxAnchor.swift in Sources */,
+				5766196B2A244D2F00D09EF4 /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -275,13 +344,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"reconlabsSample/Preview Content\"";
+				DEVELOPMENT_TEAM = A5P97GF2KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR을 사용하기 위한 카메라 권한 추가";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,13 +375,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"reconlabsSample/Preview Content\"";
+				DEVELOPMENT_TEAM = A5P97GF2KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR을 사용하기 위한 카메라 권한 추가";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,13 +422,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		576619182A1B47C000D09EF4 /* reconlabsSample.xcdatamodeld */ = {
+		576619662A244CF000D09EF4 /* CoreDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				576619192A1B47C000D09EF4 /* reconlabsSample.xcdatamodel */,
+				576619672A244CF000D09EF4 /* CoreDataModel.xcdatamodel */,
+				576619682A244CF000D09EF4 /* reconlabsSample.xcdatamodel */,
 			);
-			currentVersion = 576619192A1B47C000D09EF4 /* reconlabsSample.xcdatamodel */;
-			path = reconlabsSample.xcdatamodeld;
+			currentVersion = 576619672A244CF000D09EF4 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
