@@ -26,7 +26,7 @@ class ARVC: UIViewController {
 //        sceneView.debugOptions = [.showFeaturePoints , .showWorldOrigin]
         sceneView.autoenablesDefaultLighting = true
         
-        config.planeDetection = [.horizontal , .vertical]
+        config.planeDetection = [.horizontal ]
         config.isAutoFocusEnabled = true
         config.isLightEstimationEnabled = true
         config.worldAlignment = .gravity
@@ -118,14 +118,6 @@ class ARVC: UIViewController {
     
     func screenShot()
     {
-//        guard let containerView = self.sceneView.superview,let containerSuperView = containerView.superview else { return }
-//        let renderer = UIGraphicsImageRenderer(bounds: containerView.bounds)
-//
-//        let image =  renderer.image{
-//            context in
-//
-//            containerSuperView.layer.render(in: context.cgContext)
-//        }
         let image = sceneView.snapshot()
         imageVM.saveData(image: image)
         

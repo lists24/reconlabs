@@ -23,6 +23,7 @@
 		5766196D2A24511F00D09EF4 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766196C2A24511F00D09EF4 /* ImageData.swift */; };
 		5766196F2A24530500D09EF4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5766196E2A24530500D09EF4 /* CoreDataManager.swift */; };
 		576619712A24555A00D09EF4 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576619702A24555A00D09EF4 /* ImageDataModel.swift */; };
+		576619732A246C6B00D09EF4 /* ImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576619722A246C6B00D09EF4 /* ImageTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		5766196C2A24511F00D09EF4 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 		5766196E2A24530500D09EF4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		576619702A24555A00D09EF4 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		576619722A246C6B00D09EF4 /* ImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				5766196C2A24511F00D09EF4 /* ImageData.swift */,
 				5766196E2A24530500D09EF4 /* CoreDataManager.swift */,
 				576619702A24555A00D09EF4 /* ImageDataModel.swift */,
+				576619722A246C6B00D09EF4 /* ImageTransformer.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				5766196F2A24530500D09EF4 /* CoreDataManager.swift in Sources */,
 				5766196D2A24511F00D09EF4 /* ImageData.swift in Sources */,
 				576619342A20725400D09EF4 /* MyARView.swift in Sources */,
+				576619732A246C6B00D09EF4 /* ImageTransformer.swift in Sources */,
 				576619712A24555A00D09EF4 /* ImageDataModel.swift in Sources */,
 				576619402A21C66C00D09EF4 /* RealityKitVC.swift in Sources */,
 				576619362A20802C00D09EF4 /* ARBoxAnchor.swift in Sources */,

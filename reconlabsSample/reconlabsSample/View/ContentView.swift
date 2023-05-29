@@ -47,7 +47,7 @@ struct ContentView: View {
                         ForEach(imageVM.data ?? [])
                         {
                             item in
-                        
+                            
                             if let image = item.image
                             {
                                 Image(uiImage: image)
@@ -62,9 +62,6 @@ struct ContentView: View {
                 
                 
             }
-        }.onAppear{
-            imageVM.getData()
-            print("APPEAR")
         }
         .onChange(of: self.isPresented)
         {
@@ -79,10 +76,8 @@ struct ContentView: View {
         
 }
 
-
-
 //struct ContentView_Previews: PreviewProvider {
 //    static var previews: some View {
-//        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+//        ContentView()
 //    }
 //}

@@ -15,6 +15,20 @@ class ImageDataModel : ObservableObject
     
     private var context = CoreDataManager.shared.persistentContainer.viewContext
     
+    init()
+    {
+        let request : NSFetchRequest<ImageData> = NSFetchRequest.init(entityName: "ImageData")
+        
+        do{
+            let images : [ImageData] = try context.fetch(request)
+            self.data = images
+        }
+        catch
+        {
+            print("ImageDataModel Init Error : \(error)")
+        }
+    }
+    
     func saveData(image : UIImage)
     {
         let imageData = ImageData(context: self.context)
